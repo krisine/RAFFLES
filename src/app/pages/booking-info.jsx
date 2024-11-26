@@ -52,7 +52,7 @@ export default function BookingInfo() {
   return (
     <div className="bg-white py-16 px-4">
       <div className="text-center my-12">
-        <SignupButton link="https://gordon.lercel.com/enroll" />
+        <SignupButton link="https://gordon.lercel.com/" />
       </div>
       <div className="max-w-4xl mx-auto">
         {/* Process Steps */}
