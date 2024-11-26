@@ -84,7 +84,7 @@ export default function BookingInfo() {
           <div className="text-center space-y-2">
             <p className="text-lg">拍摄地址</p>
             <div className="space-y-1">
-              <p className="text-2xl font-bold">114 Lavender Street, </p>
+              <p className="text-2xl font-bold">RAFFLES STUDIO 114 Lavender Street, </p>
               <p className="text-2xl font-bold">CT Hub 2, Lobby 2, #01-60, Singapore 338729</p>
             </div>
           </div>
