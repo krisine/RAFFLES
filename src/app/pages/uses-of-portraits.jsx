@@ -68,34 +68,38 @@ export default function UsesOfPortraits() {
   ]
 
   return (
-    <div className="bg-white text-black py-16 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          9 USES OF PORTRAITS
-        </h2>
-        <p className="text-xl text-center mb-12">肖 像 九 用</p>
+<div className="bg-white text-black py-16 px-4">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4">
+      9 USES OF PORTRAITS
+    </h2>
+    <p className="text-lg sm:text-xl text-center mb-12">肖 像 九 用</p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {portraitUses.map((use) => (
-            <div key={use.id} className="space-y-4">
-              <div className="relative aspect-[3/4] overflow-hidden">
-                <Image
-                  src={use.img}
-                  alt={use.imageAlt}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="text-center">
-                <p className="text-4xl font-bold mb-2">{use.id}</p>
-                <h3 className="text-lg font-medium mb-1">{use.titleEn}</h3>
-                <p className="text-sm text-gray-600">{use.titleCn}</p>
-              </div>
-            </div>
-          ))}
+    {/* Grid layout for portraits */}
+    <div className="grid grid-cols-3 sm:grid-cols-3 gap-4 sm:gap-6">
+      {portraitUses.map((use) => (
+        <div key={use.id} className="space-y-4">
+          {/* Image container */}
+          <div className="relative aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
+            <Image
+              src={use.img}
+              alt={use.imageAlt}
+              fill
+              className="object-cover"
+            />
+          </div>
+
+          {/* Caption */}
+          <div className="text-center">
+            <p className="text-2xl sm:text-4xl font-bold mb-2">{use.id}</p>
+            <h3 className="text-sm sm:text-lg font-medium mb-1">{use.titleEn}</h3>
+            <p className="text-xs sm:text-sm text-gray-600">{use.titleCn}</p>
+          </div>
         </div>
-      </div>
+      ))}
     </div>
+  </div>
+</div>
   )
 }
 
