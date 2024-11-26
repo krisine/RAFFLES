@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card"
 export default function SessionOverview() {
   const sessionDetails = [
     {
-      en: "This event marks the first stop of the Golden Portrait Team's SoutheastAsia tour: Singapore.",
+      en: "This event marks the first stop of the RAFFLES Portrait Team's SoutheastAsia tour: Singapore.",
       cn: "本次活动所有拍摄为莱佛士肖像团队东南亚巡拍第一站——新加坡（Singapore)"
     },
     {
