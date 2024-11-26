@@ -1,7 +1,7 @@
 import { Calendar, Clock, Camera, ImageIcon, CheckSquare, Paintbrush } from 'lucide-react'
 import { Card } from "@/components/ui/card"
 
-const SignupButton = ({ link, text = "报名入口" }) => {
+const SignupButton = ({ link, text = "Enroll Now" }) => {
   return (
     <a
       href={link}
@@ -91,7 +91,7 @@ export default function BookingInfo() {
 
           {/* Contact Information */}
           <div className="text-center space-y-2">
-            <p className="text-lg">联系电话</p>
+            {/* <p className="text-lg">联系电话</p> */}
             <div className="space-y-1">
               <p className="text-xl">TEL:6324 4423</p>
               <p className="text-xl">HP:83374088</p>

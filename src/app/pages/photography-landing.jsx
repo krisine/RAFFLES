@@ -41,7 +41,7 @@ export default function PhotographyLanding() {
         /> */}
       </div>
       <div className="absolute inset-0 flex items-center justify-center text-white text-center px-4 sm:px-8">
-        <div>
+        <div style={{position: "absolute", top: "70vh"}}>
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold mb-4">
             PORTRAIT OF
             <br />
