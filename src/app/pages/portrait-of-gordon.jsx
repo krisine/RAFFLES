@@ -64,7 +64,7 @@ export default function PortraitOfGordon() {
                 THROUGH THESE COMPOSITIONS, WE REVEAL THE INNER EMOTIONS OF OUR SUBJECTS,
               </p>
               <p className="text-lg md:text-xl uppercase tracking-wide">
-                CREATING WORKS THAT RESONATE WITH TRUE SOUL.
+                CREATING WORKS THAT RESONATE WITH THE SOUL.
               </p>
             </div>
 

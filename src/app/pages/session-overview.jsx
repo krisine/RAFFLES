@@ -4,19 +4,19 @@ import { Card } from "@/components/ui/card"
 export default function SessionOverview() {
   const sessionDetails = [
     {
-      en: "This event marks the first stop of the RAFFLES Portrait Team's SoutheastAsia tour: Singapore.",
+      en: "This event marks the first stop of the RAFFLES Portrait Team's Southeast Asia tour: Singapore.",
       cn: "本次活动所有拍摄为莱佛士肖像团队东南亚巡拍第一站——新加坡（Singapore)"
     },
     {
-      en: "Package includes 2 sets of outfits, 2 styling looks, 2 photo sessions, and2 retouched images.",
+      en: "Package includes 2 sets of outfits, 2 styling looks, 2 photo sessions, and 2 retouched images.",
       cn: "本次活动提供2套服装/2组造型/2组拍摄/2张精修"
     },
     {
-      en: "Limited-time offer, available while slots last.",
+      en: "Limited-time offer, while slots last.",
       cn: "限时抢定，满额即止"
     },
     {
-      en: "The session must be completed within the specified period; otherwise,it will automatically expire.",
+      en: "The session must be completed within the specified period; otherwise, it will automatically expire.",
       cn: "拍摄需在指定期间内完成，逾期自动失效"
     },
     {

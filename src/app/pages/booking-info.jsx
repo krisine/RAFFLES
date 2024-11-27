@@ -93,8 +93,8 @@ export default function BookingInfo() {
           <div className="text-center space-y-2">
             {/* <p className="text-lg">联系电话</p> */}
             <div className="space-y-1">
-              <p className="text-xl">TEL:6324 4423</p>
-              <p className="text-xl">HP:83374088</p>
+              <p className="text-xl">TEL: 6324 4423</p>
+              <p className="text-xl">HP: 8337 4088</p>
             </div>
           </div>
 
