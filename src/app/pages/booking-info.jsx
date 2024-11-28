@@ -71,13 +71,13 @@ export default function BookingInfo() {
           {/* Shoot Period */}
           <div className="text-center space-y-2">
             <p className="text-lg">拍摄日期</p>
-            <h2 className="text-3xl font-bold">SHOOT PERIOD : 9-15 DEC 2024.</h2>
+            <h2 className="text-3xl font-bold">SHOOT PERIOD : 11-17 DEC 2024.</h2>
           </div>
 
           {/* Shooting Time */}
           <div className="text-center space-y-2">
             <p className="text-lg">拍摄时间</p>
-            <h2 className="text-3xl font-bold">SHOOTING TIME: 11AM—9PM</h2>
+            <h2 className="text-3xl font-bold">SHOOTING TIME: 9AM—9PM</h2>
           </div>
 
           {/* Location */}
